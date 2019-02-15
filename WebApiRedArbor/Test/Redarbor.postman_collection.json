@@ -1,0 +1,188 @@
+{
+	"info": {
+		"_postman_id": "b7e1bc80-106f-498b-8311-5c4ca85f9d2c",
+		"name": "Redarbor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:6285/api/redarbor/GetAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6285",
+					"path": [
+						"api",
+						"redarbor",
+						"GetAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"CompanyId\": 1,\r\n\t\"CreatedOn\": \"2000-01-01 00:00:00\",\r\n\t\"DeletedOn\": \"2000-01-01 00:00:00\",\r\n\t\"Email\": \"test1@test.test.tmp\",\r\n\t\"Fax\": \"000.000.000\",\r\n\t\"Name\": \"test1\",\r\n\t\"Lastlogin\": \"2000-01-01 00:00:00\",\r\n\t\"Password\": \"test\",\r\n\t\"PortalId\": 1,\r\n\t\"RoleId\": 1,\r\n\t\"StatusId\": 1,\r\n\t\"Telephone\": \"000.000.000\",\r\n\t\"UpdatedOn\": \"2000-01-01 00:00:00\",\r\n\t\"Username\": \"test1\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:6285/api/redarbor/Add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6285",
+					"path": [
+						"api",
+						"redarbor",
+						"Add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "id",
+						"value": "1",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "CompanyId",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:6285/api/redarbor/Delete?id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6285",
+					"path": [
+						"api",
+						"redarbor",
+						"Delete"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:6285/api/redarbor/GetById/?id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6285",
+					"path": [
+						"api",
+						"redarbor",
+						"GetById",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"CompanyId\": 1,\r\n\t\"CreatedOn\": \"2000-01-01 00:00:00\",\r\n\t\"DeletedOn\": \"2000-01-01 00:00:00\",\r\n\t\"Email\": \"test1@test.test.tmp\",\r\n\t\"Fax\": \"000.000.000\",\r\n\t\"Name\": \"test1Updated\",\r\n\t\"Lastlogin\": \"2000-01-01 00:00:00\",\r\n\t\"Password\": \"test\",\r\n\t\"PortalId\": 1,\r\n\t\"RoleId\": 1,\r\n\t\"StatusId\": 1,\r\n\t\"Telephone\": \"000.000.000\",\r\n\t\"UpdatedOn\": \"2000-01-01 00:00:00\",\r\n\t\"Username\": \"test1Updated\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:6285/api/redarbor/Update?id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6285",
+					"path": [
+						"api",
+						"redarbor",
+						"Update"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,7 @@
+D:\REDARBOR\WebApiRedArbor\RedArbor.Domain\bin\Debug\RedArbor.Domain.dll
+D:\REDARBOR\WebApiRedArbor\RedArbor.Domain\bin\Debug\RedArbor.Domain.pdb
+D:\REDARBOR\WebApiRedArbor\RedArbor.Domain\bin\Debug\RedArbor.Model.dll
+D:\REDARBOR\WebApiRedArbor\RedArbor.Domain\bin\Debug\RedArbor.Model.pdb
+D:\REDARBOR\WebApiRedArbor\RedArbor.Domain\obj\Debug\RedArbor.Domain.csprojResolveAssemblyReference.cache
+D:\REDARBOR\WebApiRedArbor\RedArbor.Domain\obj\Debug\RedArbor.Domain.dll
+D:\REDARBOR\WebApiRedArbor\RedArbor.Domain\obj\Debug\RedArbor.Domain.pdb

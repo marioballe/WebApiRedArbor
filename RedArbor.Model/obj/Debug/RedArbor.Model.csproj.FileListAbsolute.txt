@@ -1,0 +1,4 @@
+D:\REDARBOR\WebApiRedArbor\RedArbor.Model\bin\Debug\RedArbor.Model.dll
+D:\REDARBOR\WebApiRedArbor\RedArbor.Model\bin\Debug\RedArbor.Model.pdb
+D:\REDARBOR\WebApiRedArbor\RedArbor.Model\obj\Debug\RedArbor.Model.dll
+D:\REDARBOR\WebApiRedArbor\RedArbor.Model\obj\Debug\RedArbor.Model.pdb
